@@ -9,6 +9,9 @@
   "devDependencies": {
     "@weiran.zsd/mono-1": "1.0.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "weiran",
   "license": "ISC"
