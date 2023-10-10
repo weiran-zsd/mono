@@ -12,7 +12,9 @@
     "prepare": "husky install",
     "format": "prettier --write \"**/*.{js,css,md}\"",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
   "keywords": [
     "monorepo",
@@ -33,12 +35,15 @@
     "eslint": "^8.51.0",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3",
     "nx": "16.10.0",
-    "nx-cloud": "latest"
+    "nx-cloud": "latest",
+    "prettier": "^3.0.3"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
   }
 }
