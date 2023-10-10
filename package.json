@@ -8,11 +8,11 @@
   "version": "1.0.0",
   "description": "探索开箱即用的 monorepo 方案",
   "scripts": {
-    "pretest": "npm run lint",
     "test": "npm run test -ws",
     "prepare": "husky install",
     "format": "prettier --write \"**/*.{js,css,md}\"",
-    "lint": "eslint . --cache --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [
     "monorepo",
@@ -33,7 +33,9 @@
     "eslint": "^8.51.0",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "nx": "16.10.0",
+    "nx-cloud": "latest"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",

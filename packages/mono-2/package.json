@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node --test"
   },
+  "devDependencies": {
+    "@weiran.zsd/mono-1": "1.0.0"
+  },
   "keywords": [],
   "author": "weiran",
   "license": "ISC"
