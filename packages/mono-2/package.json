@@ -1,0 +1,12 @@
+{
+  "name": "@weiran.zsd/mono-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/mod.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "weiran",
+  "license": "ISC"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "mono",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "version": "1.0.0",
+  "description": "探索开箱即用的 monorepo 方案",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npm run test -ws",
+    "prepare": "husky install",
+    "format": "prettier --write \"**/*.{js,css,md}\"",
+    "lint": "eslint . --cache --fix"
+  },
+  "keywords": [
+    "monorepo",
+    "lerna",
+    "yarn",
+    "npm",
+    "pnpm",
+    "esbuild",
+    "typescript",
+    "eslint",
+    "prettier"
+  ],
+  "author": "weiran<weiran.zsd@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^8.51.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "eslint": "^8.51.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
