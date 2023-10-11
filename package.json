@@ -11,6 +11,7 @@
     "test": "npm run test -ws",
     "prepare": "husky install",
     "format": "prettier --write \"**/*.{js,css,md}\"",
+    "format:check": "prettier --check \"**/*.{js,css,md}\"",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "version": "changeset version",
