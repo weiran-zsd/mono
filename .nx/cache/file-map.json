@@ -1,0 +1,126 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.0.0",
+  "deps": {
+    "@changesets/cli": "^2.26.2",
+    "@eslint/js": "^8.51.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "eslint": "^8.51.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.0",
+    "nx": "17.0.0",
+    "nx-cloud": "latest",
+    "prettier": "^3.0.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "@weiran.zsd/mono-1": [
+        {
+          "file": "packages/mono-1/package.json",
+          "hash": "6698303619107066117"
+        },
+        {
+          "file": "packages/mono-1/src/mod.js",
+          "hash": "6994127476130271807"
+        },
+        {
+          "file": "packages/mono-1/src/mod.spec.js",
+          "hash": "17729877823483030627"
+        }
+      ],
+      "@weiran.zsd/mono-2": [
+        {
+          "file": "packages/mono-2/package.json",
+          "hash": "8477791552698733261",
+          "deps": [
+            "@weiran.zsd/mono-1"
+          ]
+        },
+        {
+          "file": "packages/mono-2/src/mod.js",
+          "hash": "9309244137232755429"
+        },
+        {
+          "file": "packages/mono-2/src/mod.spec.js",
+          "hash": "17729877823483030627"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".changeset/README.md",
+        "hash": "12283795064829094026"
+      },
+      {
+        "file": ".changeset/config.json",
+        "hash": "165120750224216942"
+      },
+      {
+        "file": ".changeset/shaggy-kings-fly.md",
+        "hash": "5165698290633536761"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "2158738872121801436"
+      },
+      {
+        "file": ".github/renovate.json5",
+        "hash": "5110800518208586257"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "16644019728756324419"
+      },
+      {
+        "file": ".github/workflows/release.yml",
+        "hash": "10760032325344018439"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10033604578197067942"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "8906304965158091741"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "6138961496802330875"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "10802297712917802290"
+      },
+      {
+        "file": "Contributing.md",
+        "hash": "17299441205680890178"
+      },
+      {
+        "file": "License.md",
+        "hash": "4703937430986940701"
+      },
+      {
+        "file": "README.md",
+        "hash": "12050556926285225135"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "5510693609211819275"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16713865118244355908"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12741927117277363470"
+      },
+      {
+        "file": "package.json",
+        "hash": "7386297359118063735"
+      }
+    ]
+  }
+}

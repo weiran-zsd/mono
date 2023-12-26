@@ -1,13 +1,13 @@
 {
   "name": "@weiran.zsd/mono-2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/mod.js",
   "scripts": {
     "test": "node --test"
   },
   "devDependencies": {
-    "@weiran.zsd/mono-1": "1.0.0"
+    "@weiran.zsd/mono-1": "1.0.1"
   },
   "publishConfig": {
     "access": "public"
